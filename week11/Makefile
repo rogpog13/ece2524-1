@@ -18,6 +18,6 @@ main: ${OBJ}
 clean:
 	-rm *.o *.d *~
 
+#generate archive tar of source files, including Makefile itself
 archive:
 	tar czf project.tar.gz Makefile *.h *.cpp
-
